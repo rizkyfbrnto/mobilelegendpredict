@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile Legends Bang Bang - Prediksi Kemenangan</title>
+</head>
+<body>
+    <h1>PREDIKSI KEMENANGAN HERO MOBILE LEGENDS</h1>
+    <form method="POST" action="/predict">
+        <div>
+            <h2>TIM ALLIES</h2>
+            <select name="hero_allie_1">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_allie_2">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_allie_3">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_allie_4">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_allie_5">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+        </div>
+        <div>
+            <h2>TIM ENEMY</h2>
+            <select name="hero_enemy_1">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_enemy_2">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_enemy_3">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_enemy_4">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_enemy_5">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+        </div>
+        <button type="submit">Prediksi</button>
+    </form>
+    {% if prob_allies and prob_enemy %}
+    <div>
+        <h2>Hasil Prediksi</h2>
+        <p>Persentase Kemenangan Tim Allies: {{ prob_allies }}</p>
+        <p>Persentase Kemenangan Tim Enemy: {{ prob_enemy }}</p>
+    </div>
+    {% endif %}
+    {% if error %}
+    <div>
+        <h2>Error</h2>
+        <p>{{ error }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>

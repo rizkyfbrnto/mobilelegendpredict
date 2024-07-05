@@ -1,0 +1,125 @@
+Hero,Winrate,Popularity,Baned,Hero order,Role(s),Specialties,Lane Recommendations,Release year,Tier,Meta,Difficulity,Durability,Ability Effects,Offense
+Lolita,58.09,0.25,0.81,20.0,Support/Tank,Guard/Crowd Control,Roaming,2016,C,N,Mudah,Keras,Sakit,Tidak Sakit
+Hylos,56.04,0.32,0.26,49.0,Tank,Guard,Roaming,2017,C,N,Mudah,Sangat Keras,Sakit,Normal
+Floryn,55.88,0.57,4.66,112.0,Support,Poke,Roaming,2021,A,Y,Mudah,Lembek,Sakit,Tidak Sakit
+Argus,55.7,0.49,1.17,45.0,Fighter,Charge,EXP Lane,2017,C,N,Mudah,Lembek,Tidak Sakit,Normal
+Harith,55.5,1.02,36.94,73.0,Mage,Chase,Mid Lane/Gold Lane,2018,SS,Y,Sulit,Sedang,Tidak Sakit,Sakit
+Barats,54.96,0.78,30.58,99.0,Tank/Fighter,Damage/Crowd Control,Jungling,2020,SS,Y,Mudah,Sangat Keras,Sakit,Tidak Sakit
+Edith,54.53,0.48,0.34,111.0,Tank/Marksman,Control/Burst,EXP Lane/Roaming,2021,A,Y,Sedang,Keras,Sakit,Tidak Sakit
+Gatotkaca,54.28,1.65,2.93,41.0,Tank/Fighter,Crowd Control/Burst,Roaming/EXP Lane,2017,D,N,Mudah,Keras,Sakit,Tidak Sakit
+Belerick,54.25,0.81,4.64,70.0,Tank,Crowd Control,Roaming,2018,C,N,Mudah,Sangat Keras,Sakit,Normal
+Moskov,54.22,2.83,18.42,31.0,Marksman,Finisher,Gold Lane,2017,A,Y,Sedang,Lembek,Tidak Sakit,Normal
+Carmilla,54.09,0.2,0.31,92.0,Support/Tank,Crowd Control/Damage,Roaming,2020,C,N,Mudah,Sedang,Sakit,Normal
+Khaleed,53.84,0.36,0.23,98.0,Fighter,Damage,EXP Lane,2020,B,N,Sulit,Sedang,Sakit,Sakit
+Masha,53.37,0.4,38.63,88.0,Fighter/Tank,Push/Damage,EXP Lane,2019,S,Y,Sedang,Sangat Keras,Tidak Sakit,Sakit
+Terizla,53.28,0.9,1.27,82.0,Fighter/Tank,Burst/Crowd Control,EXP Lane,2019,A,Y,Mudah,Sangat Keras,Sakit,Normal
+Zhask,53.15,0.65,1.77,50.0,Mage,Chase,Mid Lane,2017,D,N,Mudah,Sedang,Tidak Sakit,Normal
+Popol and Kupa,52.98,0.46,0.88,94.0,Marksman,Push,Jungling/Gold Lane,2020,C,N,Mudah,Lembek,Tidak Sakit,Normal
+Aulus,52.75,0.2,0.41,108.0,Fighter,Damage,Jungling,2021,D,N,Mudah,Lembek,Tidak Sakit,Normal
+Melissa,52.46,1.02,3.38,114.0,Marksman,Finisher,Gold Lane,2022,C,N,Sedang,Lembek,Normal,Sakit
+Natan,52.46,0.95,4.03,107.0,Marksman,Burst,Gold Lane,2021,SS,Y,Sedang,Lembek,Tidak Sakit,Sakit
+Minotaur,52.37,1.03,25.15,19.0,Tank/Support,Crowd Control/[[]],Roaming,2016,SS,Y,Mudah,Keras,Sakit,Tidak Sakit
+Gloo,52.34,0.1,0.36,104.0,Tank,Regen,EXP Lane/Roaming,2021,B,N,Sedang,Sangat Keras,Normal,Tidak Sakit
+Vale,52.28,1.16,1.83,66.0,Mage,Burst,Mid Lane,2019,D,N,Sedang,Lembek,Sakit,Sakit
+Benedetta,52.11,0.44,0.63,97.0,Assassin/Fighter,Chase/Burst,EXP Lane,2020,A,Y,Sulit,Lembek,Normal,Sakit
+Silvanna,52.01,0.69,0.37,90.0,Fighter,Initiator,EXP Lane,2019,D,N,Mudah,Sedang,Normal,Normal
+Harley,51.86,0.96,24.21,42.0,Assassin/Mage,Burst/Poke,Jungling,2017,C,N,Mudah,Lembek,Tidak Sakit,Sakit
+Uranus,51.74,0.45,0.54,59.0,Tank,Regen,EXP Lane,2018,B,N,Mudah,Sangat Keras,Tidak Sakit,Tidak Sakit
+Rafaela,51.71,0.41,0.47,14.0,Support,Regen,Roaming,2016,A,Y,Mudah,Lembek,Tidak Sakit,Tidak Sakit
+Vexana,51.7,2.85,39.78,38.0,Mage,Poke,Mid Lane,2017,SS,Y,Mudah,Lembek,Sakit,Sakit
+Roger,51.62,1.87,18.07,39.0,Fighter/Marksman,Finisher/Burst,Jungling,2017,S,Y,Sedang,Sedang,Tidak Sakit,Sakit
+Angela,51.58,1.9,31.53,55.0,Support,Guard,Roaming,2018,SS,Y,Mudah,Lembek,Sakit,Tidak Sakit
+Ling,51.52,0.78,2.31,84.0,Assassin,Chase,Jungling,2019,A,Y,Sangat Sulit,Lembek,Normal,Sakit
+Alucard,51.42,0.9,0.9,7.0,Fighter/Assassin,Chase/Damage,Jungling,2016,C,N,Mudah,Sedang,Tidak Sakit,Normal
+Odette,51.39,1.24,1.31,46.0,Mage,Burst,Mid Lane,2017,A,Y,Mudah,Lembek,Normal,Sakit
+Helcurt,51.32,0.63,41.11,51.0,Assassin,Push,Jungling,2017,B,Y,Sedang,Lembek,Sakit,Sakit
+Sun,51.31,1.16,6.68,27.0,Fighter,Push,EXP Lane/Jungling,2016,D,N,Mudah,Sedang,Tidak Sakit,Normal
+Diggie,51.3,0.3,38.05,48.0,Support,Guard,Roaming,2017,A,Y,Mudah,Lembek,Sakit,Tidak Sakit
+Phoveus,51.27,0.06,0.18,106.0,Fighter,Chase,EXP Lane,2021,B,Y,Sedang,Sedang,Sakit,Tidak Sakit
+Fredrinn,51.24,1.0,25.54,117.0,Fighter/Tank,Damage/Chase,Jungling,2022,SS,Y,Mudah,Keras,Sakit,Tidak Sakit
+Freya,51.14,0.46,1.53,22.0,Fighter,Chase,EXP Lane,2016,B,N,Sedang,Sedang,Normal,Sakit
+Estes,51.01,0.77,49.76,34.0,Support,Regen,Roaming,2017,B,N,Mudah,Lembek,Sakit,Tidak Sakit
+Ruby,50.95,0.68,3.22,29.0,Fighter,Crowd Control,EXP Lane,2017,S,Y,Mudah,Sedang,Sakit,Normal
+Luo Yi,50.91,0.75,2.55,96.0,Mage,Support,Mid Lane,2020,SS,Y,Sedang,Lembek,Sakit,Sakit
+Natalia,50.86,0.26,1.52,24.0,Assassin,Chase,Roaming,2016,D,Y,Sedang,Lembek,Tidak Sakit,Sakit
+Alpha,50.69,2.5,4.9,28.0,Fighter,Charge,Jungling/EXP Lane,2017,B,Y,Mudah,Sedang,Normal,Sakit
+Ixia,50.68,0.56,1.32,121.0,Marksman,Finisher,Gold Lane,2023,B,Y,Mudah,Lembek,Tidak Sakit,Sakit
+X.Borg,50.64,1.07,6.9,83.0,Fighter,Regen,EXP Lane,2019,SS,Y,Mudah,Sedang,Normal,Sakit
+Minsitthar,50.59,0.54,2.23,74.0,Fighter,Initiator,EXP Lane/Roaming,2018,B,N,Mudah,Lembek,Sakit,Normal
+Yin,50.57,1.23,53.81,113.0,Fighter/Assassin,Burst/Control,Jungling/EXP Lane,2022,C,N,Mudah,Lembek,Tidak Sakit,Normal
+Hilda,50.48,0.53,1.4,35.0,Fighter/Tank,Damage/Regen,Roaming/EXP Lane,2017,B,N,Mudah,Keras,Tidak Sakit,Sakit
+Lylia,50.26,0.87,1.02,86.0,Mage,Push,Mid Lane,2019,A,Y,Sedang,Lembek,Sakit,Sakit
+Gord,50.25,0.64,0.34,23.0,Mage,Poke,Mid Lane,2016,B,Y,Mudah,Lembek,Normal,Sakit
+Saber,50.24,1.14,10.99,3.0,Assassin,Charge,Jungling/Roaming,2016,C,N,Mudah,Lembek,Normal,Sakit
+Faramis,50.19,0.22,1.41,76.0,Support/Mage,Guard/Charge,Mid Lane,2018,SS,Y,Sedang,Lembek,Sakit,Normal
+Xavier,50.17,0.52,0.17,115.0,Mage,Damage,Mid Lane,2022,B,N,Sedang,lembek,Sakit,Sakit
+Aldous,50.15,0.73,1.68,64.0,Fighter,Burst,EXP Lane,2018,D,N,Mudah,Sedang,Normal,Normal
+Badang,50.12,0.44,0.19,77.0,Fighter,Charge,EXP Lane,2019,D,N,Mudah,Sedang,Normal,Normal
+Bane,50.05,0.36,0.22,11.0,Fighter/Mage,Push/Burst,Jungling/EXP Lane,2016,C,N,Mudah,Lembek,Normal,Sakit
+Johnson,49.98,1.0,5.11,32.0,Tank/Support,Support/Crowd Control,Roaming,2017,D,N,Sedang,Keras,Sakit,Tidak Sakit
+Hanzo,49.97,0.24,3.49,69.0,Assassin,Burst,Jungling,2018,C,N,Mudah,Lembek,Normal,Sakit
+Novaria,49.92,0.89,3.18,119.0,Mage,Burst,Mid Lane,2023,SS,Y,Sangat Sulit,Lembek,Sakit,Sakit
+Thamuz,49.75,0.91,2.06,72.0,Fighter,Chase,EXP Lane,2018,B,Y,Mudah,Keras,Tidak Sakit,Normal
+Brody,49.72,0.61,0.47,100.0,Marksman,Burst,Gold Lane,2020,A,Y,Sedang,Sedang,Normal,Sakit
+Cyclops,49.68,0.64,0.29,33.0,Mage,Poke,Mid Lane,2017,D,N,Mudah,Lembek,Normal,Normal
+Aamon,49.63,0.44,0.8,109.0,Assassin,Chase,Jungling,2021,D,N,Sedang,Lembek,Tidak Sakit,Sakit
+Lunox,49.63,0.31,0.38,68.0,Mage,Burst,Mid Lane,2018,B,Y,Sulit,Lembek,Tidak Sakit,Sakit
+Esmeralda,49.51,1.26,3.35,81.0,Mage/Tank,Regen/Mixed Damage,EXP Lane,2019,B,Y,Mudah,Keras,Tidak Sakit,Normal
+Miya,49.49,2.26,2.1,1.0,Marksman,Finisher,Gold Lane,2016,C,N,Mudah,Lembek,Tidak Sakit,Normal
+Yu Zhong,49.48,1.12,1.07,95.0,Fighter,Regen,EXP Lane,2020,S,Y,Sedang,Keras,Sakit,Normal
+Layla,49.48,2.64,4.28,18.0,Marksman,Finisher,Gold Lane,2016,D,N,Mudah,Lembek,Tidak Sakit,Normal
+Tigreal,49.45,1.85,62.63,6.0,Tank,Crowd Control,Roaming,2016,A,Y,Sedang,Keras,Sakit,Tidak Sakit
+Atlas,49.44,0.67,4.84,93.0,Tank,Crowd Control,Roaming,2020,D,N,Sedang,Sedang,Sakit,Tidak Sakit
+Irithel,49.44,0.39,0.13,43.0,Marksman,Finisher,Gold Lane,2017,C,N,Mudah,Lembek,Tidak Sakit,Normal
+Clint,49.38,0.66,0.24,13.0,Marksman,Finisher,Gold Lane,2016,A,Y,Sedang,Lembek,Tidak Sakit,Sakit
+Chang'e,49.3,1.2,1.14,61.0,Mage,Poke,Mid Lane,2018,D,N,Mudah,Lembek,Tidak Sakit,Normal
+Aurora,49.3,0.62,8.49,36.0,Mage,Crowd Control,Mid Lane,2017,D,N,Mudah,Lembek,Normal,Normal
+Granger,49.22,0.67,0.4,79.0,Marksman,Burst,Jungling,2019,C,N,Sedang,Lembek,Tidak Sakit,Sakit
+Valir,49.17,1.08,7.23,57.0,Mage,Damage,Mid Lane,2018,D,N,Sedang,Lembek,Normal,Normal
+Julian,49.15,0.38,0.49,116.0,Fighter/Mage,Chase/Magic Damage,Jungling,2022,C,N,Sedang,Sedang,Normal,Normal
+Khufra,49.15,0.49,1.16,78.0,Tank,Initiator,Roaming,2019,B,Y,Sedang,Keras,Sakit,Tidak Sakit
+Nana,49.14,2.51,54.96,5.0,Mage,Poke,Mid Lane,2016,A,Y,Mudah,Lembek,Normal,Normal
+Baxia,49.12,0.15,0.28,87.0,Tank,Support,Jungling,2019,S,Y,Sedang,Keras,Tidak Sakit,Tidak Sakit
+Hanabi,49.07,2.5,4.08,60.0,Marksman,Finisher,Gold Lane,2018,D,N,Mudah,Lembek,Tidak Sakit,Normal
+Mathilda,48.94,0.4,29.58,102.0,Support/Assassin,Initiator/Guard,Roaming,2020,SS,Y,Sulit,Sedang,Sakit,Tidak Sakit
+Dyrroth,48.93,2.68,5.73,85.0,Fighter,Charge,EXP Lane/Jungling,2019,A,Y,Sulit,Sedang,Tidak Sakit,Sakit
+Kagura,48.88,0.34,0.2,25.0,Mage,Poke,Mid Lane,2016,D,N,Sulit,Lembek,Normal,Sakit
+Kadita,48.71,0.35,0.32,75.0,Mage/Assassin,Burst/Charge,Mid Lane,2018,B,Y,Sedang,Lembek,Normal,Sakit
+Eudora,48.71,0.9,1.45,15.0,Mage,Control,Mid Lane,2016,C,N,Mudah,Lembek,Tidak Sakit,Sakit
+Yve,48.69,0.07,0.1,101.0,Mage,Burst,Mid Lane,2021,B,N,Mudah,Lembek,Sakit,Normal
+Akai,48.69,0.49,0.75,9.0,Tank,Guard,Roaming/Jungling,2016,A,Y,Sedang,Sedang,Sakit,Tidak Sakit
+Leomord,48.65,0.12,0.08,67.0,Fighter,Chase,Jungling,2018,C,N,Sedang,Lembek,Normal,Sakit
+Pharsa,48.43,0.55,0.3,52.0,Mage,Burst,Mid Lane,2017,B,N,Sedang,Lembek,Sakit,Sakit
+Chip,48.31,0.15,14.85,124.0,Support/Tank,Support/Crowd Control,Roaming,2024,A,Y,Sedang,Sedang,Sakit,Tidak Sakit
+Bruno,48.26,0.64,0.23,12.0,Marksman,Finisher,Gold Lane,2016,A,Y,Sedang,Lembek,Tidak Sakit,Sakit
+Martis,48.25,1.34,14.48,58.0,Fighter,Finisher,Jungling,2018,A,Y,Mudah,Sedang,Normal,Normal
+Cecilion,48.18,0.75,0.28,91.0,Mage,Poke,Mid Lane,2020,D,N,Sedang,Lembek,Tidak Sakit,Sakit
+Claude,48.15,1.37,1.29,65.0,Marksman,Burst,Gold Lane,2018,S,Y,Sulit,Lembek,Tidak Sakit,Normal
+Karina,48.15,0.82,10.1,8.0,Assassin,Finisher,Jungling,2016,C,N,Sedang,Lembek,Tidak Sakit,Sakit
+Cici,47.95,0.75,10.53,123.0,Fighter,Damage,EXP Lane,2023,S,Y,Sedang,Sedang,Tidak Sakit,Normal
+Arlott,47.84,0.51,1.9,120.0,Fighter/Assassin,Charge/Burst,EXP Lane,2023,SS,Y,Sulit,Sedang,Sakit,Normal
+Kimmy,47.68,0.12,0.09,71.0,Marksman/Mage,Damage/Magic Damage,Gold Lane,2018,D,N,Mudah,Lembek,Tidak Sakit,Normal
+Zilong,47.57,1.32,0.78,16.0,Fighter/Assassin,Chase/Damage,EXP Lane,2016,D,N,Mudah,Lembek,Tidak Sakit,Normal
+Alice,47.5,0.12,0.42,4.0,Mage/Tank,Charge/Regen,EXP Lane/Jungling,2016,C,N,Sedang,Sedang,Tidak Sakit,Normal
+Kaja,47.26,0.1,0.14,62.0,Support/Fighter,Control/Charge,Roaming,2018,A,Y,Sedang,Sedang,Sakit,Tidak Sakit
+Guinevere,47.1,0.53,0.88,80.0,Fighter,Burst,EXP Lane,2019,A,Y,Sedang,Lembek,Sakit,Normal
+Selena,47.08,0.82,2.28,63.0,Assassin/Mage,Initiator/Finisher,Roaming/Mid Lane,2018,B,Y,Sulit,Lembek,Sakit,Normal
+Jawhead,47.0,0.4,0.43,54.0,Fighter,Charge,EXP Lane/Jungling,2018,C,N,Mudah,Sedang,Normal,Sakit
+Franco,46.81,2.25,10.32,10.0,Tank,Initiator,Roaming,2016,B,Y,Sulit,Sedang,Sakit,Tidak Sakit
+Lapu-Lapu,46.73,0.31,0.08,37.0,Fighter,Chase,EXP Lane,2017,A,Y,Sedang,Sedang,Normal,Normal
+Hayabusa,46.72,0.54,1.11,21.0,Assassin,Chase,Jungling,2016,B,N,Sulit,Lembek,Tidak Sakit,Sakit
+Gusion,46.59,0.67,0.78,56.0,Assassin,Burst,Jungling,2018,C,N,Sulit,Lembek,Tidak Sakit,Sakit
+Grock,46.57,0.16,0.1,44.0,Tank/Fighter,Crowd Control/Initiator,Roaming,2017,A,Y,Sedang,Keras,Sakit,Normal
+Paquito,46.26,0.75,1.22,103.0,Fighter/Assassin,Chase/Damage,EXP Lane,2021,S,Y,Sulit,Sedang,Sakit,Sakit
+Lesley,46.24,1.42,1.02,53.0,Marksman/Assassin,Finisher/Burst,Gold Lane,2018,C,N,Mudah,Lembek,Tidak Sakit,Sakit
+Beatrix,45.54,0.4,0.15,105.0,Marksman,Finisher,Gold Lane,2021,B,Y,Sulit,Lembek,Tidak Sakit,Sakit
+Nolan,45.53,0.63,12.12,122.0,Assassin,Chase,Jungling,2023,SS,Y,Sulit,Lembek,Tidak Sakit,Sakit
+Karrie,45.01,0.9,1.07,40.0,Marksman,Finisher,Gold Lane,2017,S,Y,Sedang,Lembek,Tidak Sakit,Sakit
+Joy,44.86,0.09,2.02,118.0,Assassin,Chase,Jungling,2022,S,Y,Sulit,Lembek,Tidak Sakit,Sakit
+Fanny,44.83,0.62,11.53,17.0,Assassin,Chase,Jungling,2016,A,Y,Sulit,Lembek,Tidak Sakit,Sakit
+Lancelot,44.33,1.02,1.91,47.0,Assassin,Chase,Jungling,2017,B,Y,Sulit,Lembek,Tidak Sakit,Sakit
+Balmond,44.1,0.95,0.77,2.0,Fighter,Damage,Jungling,2016,D,N,Mudah,Sedang,Tidak Sakit,Normal
+Chou,43.55,0.91,1.42,26.0,Fighter,Chase,EXP Lane/Roaming,2016,A,Y,Sulit,Sedang,Sakit,Normal
+Valentina,43.27,0.31,0.52,110.0,Mage,Burst,Mid Lane,2021,S,Y,Sedang,Lembek,Sakit,Sakit
+Wanwan,42.49,0.17,0.42,89.0,Marksman,Finisher,Gold Lane,2019,D,N,Sulit,Lembek,Tidak Sakit,Sakit
+Yi Sun-shin,51.78,0.1,0.06,124.0,Marksman,Finishing,Jungling,2017,C,N,Lembek,Sakit,Sakit,
