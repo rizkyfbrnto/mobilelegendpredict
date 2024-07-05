@@ -2,6 +2,66 @@
 <html>
 <head>
     <title>Mobile Legends Bang Bang - Prediksi Kemenangan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .result, .error {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .result h2, .error h2 {
+            margin-top: 0;
+        }
+        .result p {
+            font-size: 18px;
+            color: #333;
+        }
+        .error p {
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <h1>PREDIKSI KEMENANGAN HERO MOBILE LEGENDS</h1>
@@ -25,14 +85,14 @@
         <button type="submit">Prediksi</button>
     </form>
     {% if prob_allies and prob_enemy %}
-    <div>
+    <div class="result">
         <h2>Hasil Prediksi</h2>
         <p>Persentase Kemenangan Tim Allies: {{ prob_allies }}</p>
         <p>Persentase Kemenangan Tim Enemy: {{ prob_enemy }}</p>
     </div>
     {% endif %}
     {% if error %}
-    <div>
+    <div class="error">
         <h2>Error</h2>
         <p>{{ error }}</p>
     </div>
