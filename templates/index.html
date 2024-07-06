@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mobile Legends Bang Bang - Prediksi Kemenangan</title>
+    <title>Mobile Legends Bang Bang - Prediction With Naive Baiyes</title>
+    <title>Model Accuracy: 63.88%</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -62,25 +63,93 @@
             color: red;
         }
     </style>
+    <script>
+        function disableSelectedOptions() {
+            var selects = document.querySelectorAll('select');
+            var selectedValues = Array.from(selects).map(select => select.value);
+            
+            selects.forEach(select => {
+                var options = select.querySelectorAll('option');
+                options.forEach(option => {
+                    if (selectedValues.includes(option.value) && option.value !== select.value) {
+                        option.disabled = true;
+                    } else {
+                        option.disabled = false;
+                    }
+                });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var selects = document.querySelectorAll('select');
+            selects.forEach(select => {
+                select.addEventListener('change', disableSelectedOptions);
+            });
+            disableSelectedOptions(); // Initial call to disable options on page load
+        });
+    </script>
 </head>
 <body>
-    <h1>PREDIKSI KEMENANGAN HERO MOBILE LEGENDS</h1>
+    <h1>Mobile Legends Bang Bang - Prediction With Naive Baiyes
+        Model Accuracy: 63.88%
+    </h1>
+
     <form method="POST" action="/predict">
         <div>
             <h2>TIM ALLIES</h2>
-            <select name="hero_allie_1">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
-            <select name="hero_allie_2">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
-            <select name="hero_allie_3">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
-            <select name="hero_allie_4">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
-            <select name="hero_allie_5">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_allie_1">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_allie_1'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
+            <select name="hero_allie_2">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_allie_2'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
+            <select name="hero_allie_3">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_allie_3'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
+            <select name="hero_allie_4">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_allie_4'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
+            <select name="hero_allie_5">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_allie_5'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
         </div>
         <div>
             <h2>TIM ENEMY</h2>
-            <select name="hero_enemy_1">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
-            <select name="hero_enemy_2">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
-            <select name="hero_enemy_3">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
-            <select name="hero_enemy_4">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
-            <select name="hero_enemy_5">{% for hero in heroes %}<option value="{{ hero }}">{{ hero }}</option>{% endfor %}</select>
+            <select name="hero_enemy_1">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_enemy_1'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
+            <select name="hero_enemy_2">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_enemy_2'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
+            <select name="hero_enemy_3">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_enemy_3'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
+            <select name="hero_enemy_4">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_enemy_4'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
+            <select name="hero_enemy_5">
+                {% for hero in heroes %}
+                    <option value="{{ hero }}" {% if request.form['hero_enemy_5'] == hero %}selected{% endif %}>{{ hero }}</option>
+                {% endfor %}
+            </select>
         </div>
         <button type="submit">Prediksi</button>
     </form>
